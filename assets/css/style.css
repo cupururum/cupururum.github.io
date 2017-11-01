@@ -1,9 +1,15 @@
+html{
+	height: 100%;
+}
 body {
 	background-image: url(../images/symphony.png);
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	color: #777777;
 	margin: 0px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 div.top { /* wrapped around <header> and <nav> */
@@ -70,6 +76,7 @@ section {
 	width: 960px;
 	margin-left: 130px;
   margin-bottom: 0px;
+	flex: 1 0 auto;
 }
 
 article {
@@ -114,7 +121,6 @@ div.fix_footer{
 }
 
 footer {
-	bottom: 0px;
 	background-color: #666666;
 	border-top: 5px solid #4aaaa5;
 	color: #ffffff;
@@ -123,5 +129,4 @@ footer {
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-top: -30px;
 }
