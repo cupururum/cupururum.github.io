@@ -107,20 +107,38 @@ form {
 
 input.small_windows {
 	width: 100%;
-	height: 20px;
+	height: 30px;
 	border: 1px solid #cccccc;
+	border-radius: 3px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 18px;
+}
 
+input[type=text] {
+	font-size: 18px;
+	color: inherit;
+}
+
+textarea {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	font-size: 20px;
+	color: inherit;
+	padding-bottom: 100px;
+  width: 100%;
+	font-size: 18px;
+	color: inherit;
+	margin-top: 10px;
 }
 
 input.style_for_buttons{
     background-color: #4aaaa5;
     border: 1px solid #cccccc;
+		border-radius: 3px;
     padding: 10px 20px 10px 20px;
     color: #ffffff;
     font-size: 15px;
-
  }
 
 #large_comment {
