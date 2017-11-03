@@ -54,7 +54,15 @@
       	  <article>
       	       <h1> Contact me with email </h1>
 
+               <form method="POST" action="http://formspree.io/v.romashchenko@gmail.com">
+                 <input type="text" name="name" placeholder="Your name...">
+                 <input type="email" name="email" placeholder="Your email...">
+                 <textarea name="message" placeholder="Your message..."></textarea>
+                 <button class="style_for_buttons" type="submit">Send</button>
+                 <button class="style_for_buttons" type="reset">Send</button>
+               </form>
 
+  <!--
                <form method="POST" action="http://formspree.io/v.romashchenko@gmail.com">
                  Name:<br>
                  <input class="small_windows" type="text" placeholder="Your name..." name="name">
@@ -65,7 +73,7 @@
                  <input class="style_for_buttons" type="submit" value="Send">
                  <input class="style_for_buttons" type="reset" value="Reset">
                </form>
-    <!--
+
                   <form action="https://formspree.io/v.romashchenko@gmail.com" method="POST">
                          Name:<br>
                        <input class="small_windows" type="text" placeholder="Your name..." name="name">
